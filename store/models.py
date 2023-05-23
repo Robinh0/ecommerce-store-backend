@@ -80,3 +80,5 @@ class CartItem(models.Model):
     quantity = models.PositiveSmallIntegerField()
     unit_price = models.DecimalField(max_digits=5, decimal_places=2)
     
+class Testclass(models.Model):
+    test = models.CharField(max_length=255)
